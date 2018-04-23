@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.xuezhisd.top/"/>
-  <updated>2018-04-21T15:03:27.555Z</updated>
+  <updated>2018-04-23T12:01:57.437Z</updated>
   <id>http://blog.xuezhisd.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.xuezhisd.top/2018/04/21/python-%E4%B8%BAPython%E6%B7%BB%E5%8A%A0%E9%BB%98%E8%AE%A4%E6%A8%A1%E5%9D%97%E6%90%9C%E7%B4%A2%E8%B7%AF%E5%BE%84.html"/>
     <id>http://blog.xuezhisd.top/2018/04/21/python-为Python添加默认模块搜索路径.html</id>
     <published>2018-04-21T15:01:36.000Z</published>
-    <updated>2018-04-21T15:03:27.555Z</updated>
+    <updated>2018-04-23T12:01:57.437Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>本文描述了3种<strong>为Python添加模块搜索路径</strong>的方法。<br><a id="more"></a></p></blockquote><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul><li>总共有三种方法：①函数添加；②修改环境变量；③增加.pth文件。</li></ul><h2 id="一、函数添加"><a href="#一、函数添加" class="headerlink" title="一、函数添加"></a>一、函数添加</h2><ul><li>在<code>Python</code>中或Python文件中执行以下语句，将<code>/home/xuezhi.zhang/libs</code>添加到Python搜索目录中。</li></ul><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">import sys</span><br><span class="line">print sys.path</span><br><span class="line">sys<span class="selector-class">.path</span><span class="selector-class">.append</span>(<span class="string">"/home/xuezhi.zhang/libs"</span>)</span><br></pre></td></tr></table></figure><h2 id="二、修改环境变量"><a href="#二、修改环境变量" class="headerlink" title="二、修改环境变量"></a>二、修改环境变量</h2><ul><li>用户可以通过修改环境变量PYTHONPATH来添加Python搜索目录。</li><li>将以下内容放到<code>~/.bashrc</code>中，并执行<code>source ~/.bashrc</code>使设置生效。</li><li>作用：将<code>${HOME}/workspace/mxnet/python</code>添加到Python搜索目录。</li></ul><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="builtin-name">export</span> <span class="attribute">PYTHONPATH</span>=<span class="variable">$&#123;PYTHONPATH&#125;</span>:$&#123;HOME&#125;/workspace/mxnet/python</span><br></pre></td></tr></table></figure><h2 id="三、增加-pth文件"><a href="#三、增加-pth文件" class="headerlink" title="三、增加.pth文件"></a>三、增加.pth文件</h2><ul><li>在site-packages目录中添加一个路径文件（如mypkpath.pth）。<strong>注意：必须以.pth为后缀</strong>。将你要加入的模块文件所在的目录名称写入该文件即可。</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://www.cnblogs.com/shanql/articles/5477483.html" target="_blank" rel="noopener">为Python添加默认模块搜索路径</a></li></ul>]]></content>
     
@@ -32,10 +32,12 @@
     
     </summary>
     
-      <category term="uncategorized" scheme="http://blog.xuezhisd.top/categories/uncategorized/"/>
+      <category term="python" scheme="http://blog.xuezhisd.top/categories/python/"/>
     
     
-      <category term="untags" scheme="http://blog.xuezhisd.top/tags/untags/"/>
+      <category term="编程" scheme="http://blog.xuezhisd.top/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="python" scheme="http://blog.xuezhisd.top/tags/python/"/>
     
   </entry>
   
