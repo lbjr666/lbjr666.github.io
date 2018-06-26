@@ -491,9 +491,9 @@
             
               <img class="site-author-image" itemprop="image"
                 src="/images/lbjr.png"
-                alt="联壁投资者" />
+                alt="联璧受害者" />
             
-              <p class="site-author-name" itemprop="name">联壁投资者</p>
+              <p class="site-author-name" itemprop="name">联璧受害者</p>
               <p class="site-description motion-element" itemprop="description">针对联壁和斐讯的不作为行为，我们有必要组织起来，团结起来，坚决地维护自己的利益！！！</p>
           </div>
 
@@ -614,7 +614,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">联壁投资者</span>
+  <span class="author" itemprop="copyrightHolder">联璧受害者</span>
 
   
 
@@ -774,6 +774,30 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '6imUgkJBy7GmdW1Dus2aO43g-gzGzoHsz',
+        appKey: 'CY0B6REdC1675u79Py9NxwsS',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
