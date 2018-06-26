@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lbjr666.github.io/tags/index.html</loc>
+    <loc>http://lbjr666.github.io/about/index.html</loc>
     
-    <lastmod>2018-06-25T13:32:42.622Z</lastmod>
+    <lastmod>2018-06-26T01:36:21.959Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://lbjr666.github.io/2018/06/24/2018_06_24_3.html</loc>
+    
+    <lastmod>2018-06-26T01:33:42.035Z</lastmod>
     
   </url>
   
@@ -16,14 +23,14 @@
   </url>
   
   <url>
-    <loc>http://lbjr666.github.io/categories/index.html</loc>
+    <loc>http://lbjr666.github.io/tags/index.html</loc>
     
-    <lastmod>2018-06-25T13:32:42.602Z</lastmod>
+    <lastmod>2018-06-25T13:32:42.622Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://lbjr666.github.io/about/index.html</loc>
+    <loc>http://lbjr666.github.io/categories/index.html</loc>
     
     <lastmod>2018-06-25T13:32:42.602Z</lastmod>
     
@@ -40,13 +47,6 @@
     <loc>http://lbjr666.github.io/2018/06/24/2018_06_24_4.html</loc>
     
     <lastmod>2018-06-25T13:32:42.578Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://lbjr666.github.io/2018/06/24/2018_06_24_3.html</loc>
-    
-    <lastmod>2018-06-25T13:32:42.570Z</lastmod>
     
   </url>
   
